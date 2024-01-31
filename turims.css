@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+    font-size: 14px;
+}
+html {
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    background-color: bisque;
+}
+.principal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header{
+    height: 100vh;
+    background-image: url(./img/invierno-moscu.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+section{
+    display: flex;
+}
+#left{
+    width: 15%;
+    float: left;
+    padding: 5px;
+    border: 3px white solid;
+}
+#center{
+    width: 60%;
+    float: left;
+    margin: 0;
+    /* flex-direction: column; */
+    border: 3px blue solid;
+}
+#right{
+    width: 25%;
+    float: left;
+    padding: 5px;
+    border: 3px red solid;
+}
+#medio{
+    /* display: flex; */
+    float: left;
+}
+article{
+    width: 25%;
+    float: left;
+    padding: 8px;
+}
+#img-kremlin{
+    height: 50vh;
+    background-image: url(./img/kremlin.jpg);
+    background-size:cover;
+    background-position: center;
+}
+#img-plaza{
+    height: 50vh;
+    background-image: url(./img/plazaroja.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#img-catedral{
+    height: 50vh;
+    background-image: url(./img/catedralsanbasilio.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#img-salvador{
+    height: 50vh;
+    background-image: url(./img/que-ver-en-moscu-.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#img-poblacion{
+    height: 50vh;
+    background-image: url(./img/poblacion.png);
+    background-size: cover;
+    background-position: center;
+}
+.gallery{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+.title{
+    text-decoration: underline;
+}
+h4{
+    text-align: center;
+}
+p{
+    text-align: justify;   
+}
+#newsmoscu{
+    height: 30vh;
+    background-image: url(./img/noticia.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#newshonor{
+    height: 30vh;
+    background-image: url(./img/diadelavictoria.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#newsflores{
+    height: 30vh;
+    background-image: url(./img/plazallenaflores.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#newsmuse{
+    height: 30vh;
+    background-image: url(./img/piezadearte.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#deportes{
+    height: 30vh;
+    background-image: url(./img/deportesmoscuw.jpg);
+    background-size: cover;
+    background-position: center;
+}
+hr{
+    border: 3px blue solid;
+}
+iframe{
+    height: 50vh;
+    width: 12em;
+    background-size: cover;
+    background-position: center;
+}
+@media only screen and (max-width: 700px){
+    article{
+        width: 100%;
+    }
+    section{
+        width: 100%;
+    }
+    div{
+        width: 100%;
+    }
+    }
